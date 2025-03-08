@@ -1,1 +1,3 @@
-# Platoon
+This project implements a wireless vehicle platooning system using ESP32 and NRF24L01, where a leader car transmits movement commands, and follower cars autonomously follow while maintaining a set distance. The system features a web-based control interface, allowing users to control the leader car via Wi-Fi while the followers synchronize their movements. It also integrates optical encoders for precise turning and distance measurement.
+
+To set up, flash the respective codes to the leader and follower ESP32s, connect to the Wi-Fi network (Platoon_Leader: 12345678), and control the system via the web interface at 192.168.4.1. Future improvements will include obstacle detection using ultrasonic sensors and AI-driven steering for enhanced multi-car platooning. 
